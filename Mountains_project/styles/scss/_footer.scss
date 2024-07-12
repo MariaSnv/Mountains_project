@@ -1,0 +1,47 @@
+.footer {
+  padding: 6.25em 0;
+
+  &__wrap {
+    display: flex;
+    gap: 26.9375em;
+  }
+
+  &__logo {
+    display: block;
+    margin-bottom: 1.5em;
+  }
+
+  &__desc {
+    max-width: 303px;
+    margin-bottom: 7.625em;
+  }
+
+  &__text {
+    font-weight: 500;
+    opacity: 0.5;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 13.25em;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  &__head-item {
+    font-size: clamp(15px, 2vw, 24px);
+    line-height: 1.33;
+    text-transform: capitalize;
+    color: $accent;
+    margin-bottom: 1em;
+  }
+
+  &__item {
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+}

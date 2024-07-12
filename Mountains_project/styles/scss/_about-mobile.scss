@@ -1,0 +1,28 @@
+@media (max-width: 1050px) {
+  .about {
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+      padding: 3.25em 0;
+      gap: 5.1875em;
+    }
+    &__row {
+      margin-top: -7em;
+    }
+    &__text-col {
+      margin: 0 auto;
+    }
+    &__count {
+      left: -4.734%;
+      top: -6.46%;
+    }
+    &__link-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+    &__img-col {
+      width: 68%;
+    }
+  }
+}
